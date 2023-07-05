@@ -4,7 +4,7 @@ const router = express.Router()
 const { affecteEmpolyee } = require('../controllers/affectation');
 
 
-router.put('/affectation/:idlocal/:idRespo', affecteEmpolyee)
+router.put('/affectation/:idMiss/:idEmp', affecteEmpolyee)
 
 
 
